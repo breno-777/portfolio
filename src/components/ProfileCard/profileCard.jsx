@@ -27,7 +27,9 @@ function ProfileCard(props) {
                         <p className="profile_bio">{user.bio}</p>
 
                         <div className="visit-button">
-                            <VisitButton type='visit' title='Visit' />
+                            <a href="https://github.com/breno-777" target="blank">
+                                <VisitButton type='visit' title='Visit' />
+                            </a>
                         </div>
                     </div>
                 </div>
