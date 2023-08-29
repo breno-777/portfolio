@@ -11,10 +11,19 @@ function Home() {
                         <h1>Breno Amarante</h1>
                         <h2>Full Stack Developer</h2>
                         <div className="icons">
-                            <ReactIcons iconName={'linkedin-icon'} size={'2rem'} margin={'0 1rem 0 0'} />
+                            
+                            <a href="https://www.linkedin.com/in/breno777/" target="blank">
+                                <ReactIcons iconName={'linkedin-icon'} size={'2rem'} margin={'0 1rem 0 0'} />
+                            </a>
                             <ReactIcons iconName={'email-icon'} size={'2rem'} margin={'0 1rem 0 0'} />
-                            <ReactIcons iconName={'discord-icon'} size={'2rem'} margin={'0 1rem 0 0'} />
-                            <ReactIcons iconName={'github-icon'} size={'2rem'} />
+
+                            <a href="https://discord.com/users/497121360657514507" target="blank">
+                                <ReactIcons iconName={'discord-icon'} size={'2rem'} margin={'0 1rem 0 0'} />
+                            </a>
+
+                            <a href="https://github.com/breno-777" target="blank">
+                                <ReactIcons iconName={'github-icon'} size={'2rem'} />
+                            </a>
                         </div>
 
                     </div>
