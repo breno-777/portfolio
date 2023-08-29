@@ -889,7 +889,7 @@ Error generating stack: `+o.message+`
             align-items: center;
         }
     }
-`;function om(e){const[t,n]=X.useState({});return X.useEffect(()=>{fetch(e.link).then(r=>r.json()).then(r=>n(r))},[e.link]),c.jsx(im,{children:c.jsx("div",{className:"container",children:c.jsxs("div",{className:"row",children:[c.jsx("div",{className:"title",children:e.title}),c.jsx("div",{className:"profile_avatar col-3",children:c.jsx("img",{src:t.avatar_url,alt:""})}),c.jsxs("div",{className:"profile_contents col",children:[c.jsx("h2",{className:"profile_name",children:t.name}),c.jsx("p",{className:"profile_bio",children:t.bio}),c.jsx("div",{className:"visit-button",children:c.jsx(tm,{type:"visit",title:"Visit"})})]})]})})})}const lm=b.div`
+`;function om(e){const[t,n]=X.useState({});return X.useEffect(()=>{fetch(e.link).then(r=>r.json()).then(r=>n(r))},[e.link]),c.jsx(im,{children:c.jsx("div",{className:"container",children:c.jsxs("div",{className:"row",children:[c.jsx("div",{className:"title",children:e.title}),c.jsx("div",{className:"profile_avatar col-3",children:c.jsx("img",{src:t.avatar_url,alt:""})}),c.jsxs("div",{className:"profile_contents col",children:[c.jsx("h2",{className:"profile_name",children:t.name}),c.jsx("p",{className:"profile_bio",children:t.bio}),c.jsx("div",{className:"visit-button",children:c.jsx("a",{href:"https://github.com/breno-777",target:"blank",children:c.jsx(tm,{type:"visit",title:"Visit"})})})]})]})})})}const lm=b.div`
     margin: 6rem 4rem;
 
     .container-fluid{
