@@ -1,17 +1,25 @@
 body {
-    height: 100vh;
+  height: 100vh;
 
-    background: rgb(9, 32, 63);
-    background: linear-gradient(345deg, rgba(9, 32, 63, 1) 0%, rgba(83, 120, 149, 1) 100%);
+  background: rgb(9, 32, 63);
+  background: linear-gradient(
+    345deg,
+    rgba(9, 32, 63, 1) 0%,
+    rgba(83, 120, 149, 1) 100%
+  );
 }
 
 .Square-01 {
-    position: fixed;
-    height: 800px;
-    width: 800px;
-    background: rgb(9, 32, 63);
-    border-radius: 10%;
-    background: linear-gradient(45deg, rgba(147, 165, 207, 1) 0%, rgb(67, 97, 120) 100%);
-    transform: rotate(45deg);
-    transform-origin: 0%;
+  position: fixed;
+  height: 800px;
+  width: 800px;
+  background: rgb(9, 32, 63);
+  border-radius: 10%;
+  background: linear-gradient(
+    45deg,
+    rgba(147, 165, 207, 1) 0%,
+    rgb(67, 97, 120) 100%
+  );
+  transform: rotate(45deg);
+  transform-origin: 0%;
 }

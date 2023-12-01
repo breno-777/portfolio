@@ -1,6 +1,5 @@
 {
   "homepage": "https://breno-777.github.io/portfolio",
-
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -10,11 +9,11 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@hookform/resolvers": "^3.2.0",
     "axios": "^1.4.0",
     "bootstrap": "^5.3.1",
