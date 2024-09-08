@@ -1,0 +1,18 @@
+<svg width="520" height="124" viewBox="0 0 520 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_24_332" fill="white">
+<path d="M0 0H520V124H0V0Z"/>
+</mask>
+<path d="M0 0H520V124H0V0Z" fill="url(#paint0_radial_24_332)" fill-opacity="0.4"/>
+<path d="M0 1H520V-1H0V1Z" fill="url(#paint1_linear_24_332)" mask="url(#path-1-inside-1_24_332)"/>
+<defs>
+<radialGradient id="paint0_radial_24_332" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260) rotate(90) scale(124 260)">
+<stop stop-color="#31087B" stop-opacity="0.6"/>
+<stop offset="1" stop-color="#31087B" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_24_332" x1="0" y1="62" x2="520" y2="62" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A9A3C2" stop-opacity="0"/>
+<stop offset="0.5" stop-color="#A9A3C2"/>
+<stop offset="1" stop-color="#A9A3C2" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
